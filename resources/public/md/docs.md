@@ -1,3 +1,14 @@
+<div class="bs-callout bs-callout-danger">
+ <h3>Database Configuration is Required</h3>
+ <p>Before continuing please follow the steps below to configure your database connection and run the necessary migrations.</p>
+ <ol>
+   <li> Create the database for your application.
+   <li> Update the connection parameters for the database in the <code>todo.db.schema</code> namespace of your application.
+   <li> Update the connection URL in the <code>project.clj</code> <code>:ragtime</code> settings with your database name and login.
+   <li> Run <code>lein ragtime migrate</code> in the root of the application to create the tables.
+   <li> Restart the application.
+ </ol>
+</div>
 
 ### Managing Your Middleware
 
