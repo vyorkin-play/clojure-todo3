@@ -4,8 +4,7 @@ todo web app in clojure built with luminus
 # todo
 
 Just trying that shit
-=======
-# todo
+Read this: https://github.com/vyorkin/todo3/blob/master/resources/public/md/docs.md
 
 ## Prerequisites
 
